@@ -1,14 +1,27 @@
 {
+<<<<<<< HEAD
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
+=======
+  "name": "mertkaravan",
+  "version": "0.0.1",
+  "private": true,
+>>>>>>> bc1c512 (Initial commit fixed version)
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+=======
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "build:dev": "vite build --mode development",
+    "lint": "eslint ."
+>>>>>>> bc1c512 (Initial commit fixed version)
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -48,9 +61,12 @@
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",
-    "react": "^18.3.1",
+<<<<<<< HEAD
+    =======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-day-picker": "^8.10.1",
-    "react-dom": "^18.3.1",
+>>>>>>> bc1c512 (Initial commit fixed version)
     "react-hook-form": "^7.61.1",
     "react-resizable-panels": "^2.1.9",
     "react-router-dom": "^6.30.1",
@@ -78,6 +94,12 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
+<<<<<<< HEAD
     "vite": "^5.4.19"
+=======
+    "vite": "^5.4.19",
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^5.0.0"
+>>>>>>> bc1c512 (Initial commit fixed version)
   }
 }
